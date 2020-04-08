@@ -1,20 +1,15 @@
 #include<stdio.h>
-#include<string.h>
-int main()
-{ 
-	//int op;
-	//float x=0,y=0;
-	char c=125;
-	c+=10;
-	printf ("%d",c);
-	/*scanf("%f",&x);
-	printf("Divakar");
-	scanf("%c",&c);
+int main ()
+{ int i;
+	float x=0,y=0,op;
+	char c;
+	printf ("\t\t\t\t******CALCULATOR*******");
+	scanf("%f%c",&x,&c);
 	op=int(c);
-	printf("This is Divakar pal %dtty%d\t%f",c,x);*/
-        //op=int(c);
-		//printf("%d",op);
-		/*switch (op)
+	while(op<=61)
+	{
+		//op=int(c);
+		switch (op)
 		{
 			case 43:
 				{
@@ -49,13 +44,8 @@ int main()
 					printf("Total=%f",x);
 					break;
 				}
-			default:
-				{
-					printf("\n Total=%f",x);
-					break;
-				}
-		
-	}*/
+		}
+	}
 	return 0;
 	/*char arr[]={'+','-','*','/','='};
 	for (i=0;i<5;i++)
